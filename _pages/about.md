@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a researcher interested in the area of Natural Language Processing focused on improving information extraction methods for biomedical data utilizing machine learning and deep learning methods. 
+I am a researcher interested in the area of natural language processing (NLP/NLProc) focused on improving information extraction methods for biomedical data utilizing machine learning and deep learning methods. 
 
 I received my PhD in Biomedical Informatics in 2019 with advisors Dr. Matthew Scotch (Arizona State University) and Dr. Graciela Gonzalez (University of Pennsylvania). 
 
