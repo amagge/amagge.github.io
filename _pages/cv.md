@@ -11,34 +11,30 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Biomedical Informatics, Arizona State University, 2019
-* M.S. in Computer Science, Arizona State University, 2016
-* B.E. in Computer Science, National Institute of Engineering, 2009
+* B.S. in GitHub, GitHub University, 2012
+* M.S. in Jekyll, GitHub University, 2014
+* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
 Work experience
 ======
-* 2016 - 2019: Visiting Scholar at University of Pennsylvania
+* Summer 2015: Research Assistant
+  * Github University
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git
 
-* 2015 - 2019: Graduate Research Assistant at Arizona State University
-
-* 2009 - 2014: Software Developer at International Business Machines (IBM)
-
-* Spring 2009: Research Intern at Hewlett Packard (HP)
-
+* Fall 2015: Research Assistant
+  * Github University
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
+  
 Skills
 ======
-* Machine Learning
-  * tensorflow
-  * pytorch
-  * scikit-learn
-* Natural Language Processing
-  * nltk
-  * spacy
-  * flair
-* Natural Language Processing
-  * nltk
-  * spacy
-  * flair
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
 
 Publications
 ======
@@ -58,3 +54,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+Service and leadership
+======
+* Currently signed in to 43 different slack teams
