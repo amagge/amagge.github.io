@@ -80,8 +80,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Arjun Magge"
-  avatar           : "profile.png"
+  name             : ""
+  avatar           : "profile.jpg"
   bio              : "Applied Machine Learning, NLP/NLProc, Biomedical Data Mining, Public Health"
   location         : "United States"
   employer         :
