@@ -2,7 +2,7 @@
 title: "Bi-directional Recurrent Neural Network Models for Geographic Location Extraction in Biomedical Literature."
 collection: markdownpublications
 permalink: /publication/2019-Bi-directional-Recurrent-Neural-Network-Models-for-Geographic-Location-Extraction-in-Biomedical-Literature
-date: 2019
+date: 2019-01-01
 venue: 'In the proceedings of Pacific Symposium on Biocomputing'
 citation: ' Arjun Magge,  Davy Weissenbacher,  Abeed Sarker,  Matthew Scotch,  Graciela Gonzalez-Hernandez, &quot;Bi-directional Recurrent Neural Network Models for Geographic Location Extraction in Biomedical Literature..&quot; In the proceedings of Pacific Symposium on Biocomputing, 2019.'
 ---

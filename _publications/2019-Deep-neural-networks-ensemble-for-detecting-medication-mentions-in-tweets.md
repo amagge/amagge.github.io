@@ -2,7 +2,7 @@
 title: "Deep neural networks ensemble for detecting medication mentions in tweets"
 collection: publications
 permalink: /publication/2019-Deep-neural-networks-ensemble-for-detecting-medication-mentions-in-tweets
-date: 2019
+date: 2019-01-01
 venue: 'Journal of the American Medical Informatics Association'
 citation: ' Davy Weissenbacher,  Abeed Sarker,  Ari Klein,  Karen O’Connor,  Arjun Magge,  Graciela Gonzalez-Hernandez, &quot;Deep neural networks ensemble for detecting medication mentions in tweets.&quot; Journal of the American Medical Informatics Association, 2019.'
 ---
