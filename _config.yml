@@ -1,1 +1,85 @@
-theme: jekyll-theme-minimal
+title       : Arjun Magge
+logo        : /images/logo.png
+description : "Researcher in Biomedical Natural Language Processing"
+theme       : jekyll-theme-minimal
+
+# Site Author
+author:
+  name             : "Arjun Magge"
+  avatar           : "images/profile.png"
+  bio              : "Researcher interested in natural language processing and information extraction strategies applied to biomedical and public health applications."
+  location         : "United States"
+  employer         :
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=arjun+magge"
+  googlescholar    : "https://scholar.google.com/citations?user=Y9wBbnMAAAAJ&hl=en"
+  email            :
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  uri              :
+  bitbucket        :
+  facebook         :
+  github           : "amagge"
+  instagram        :
+  linkedin         :
+  orcid            : "http://orcid.org/0000-0002-4109-1346"
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  twitter          : #"replacethistwitterhandle"
+  youtube          :
+  wikipedia        :
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
