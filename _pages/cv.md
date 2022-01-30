@@ -17,6 +17,8 @@ Education
 
 Work experience
 ======
+* 2020 - : Research Scientist at University of Pennsylvania
+
 * 2016 - 2019: Visiting Scholar at University of Pennsylvania
 
 * 2015 - 2019: Graduate Research Assistant at Arizona State University
@@ -35,10 +37,6 @@ Skills
   * nltk
   * spacy
   * flair
-* Natural Language Processing
-  * nltk
-  * spacy
-  * flair
 
 Publications
 ======
@@ -46,15 +44,4 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
