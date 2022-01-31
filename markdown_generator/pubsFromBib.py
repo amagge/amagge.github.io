@@ -33,9 +33,10 @@ publist = {
         "collection" : {"name":"markdownpublications",
                         "permalink":"/publication/"}
         
-    },
+    }
+    ,
     "journal":{
-        "file": "pubs.bib",
+        "file": "journal.bib",
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
@@ -98,9 +99,11 @@ for pubsource in publist:
             #Build Citation from text
             citation = ""
 
+            print("Processing : ", clean_title)
+
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+                citation = citation+" "+(author.first_names[0] if author.first_names else "")+" "+(author.last_names[0] if author.last_names else "")+", "
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
@@ -135,7 +138,7 @@ for pubsource in publist:
                     md += "\npaperurl: '" + b["url"] + "'"
                     url = True
 
-            md += "\ncitation: '" + html_escape(citation) + "'"
+            # md += "\ncitation: '" + html_escape(citation) + "'"
 
             md += "\n---"
 
@@ -145,9 +148,9 @@ for pubsource in publist:
                 md += "\n" + html_escape(b["note"]) + "\n"
 
             if url:
-                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
-            else:
-                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
+                md += " [Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
+            # else:
+            #     md += "Use [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
 
             md_filename = os.path.basename(md_filename)
 
